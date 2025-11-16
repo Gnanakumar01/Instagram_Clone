@@ -1,0 +1,101 @@
+{
+  "posts":[
+  {
+    "id": 1,
+    "user": {
+      "id":101,
+      "username": "john_doe",
+      "userImage": "src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+    },
+    "postImage": "src/assets/carl-beech-dgHAvBuQdfs-unsplash.jpg",
+    "caption": "Enjoying the sunset ❤️",
+    "likes": 245,
+    "isLiked": false,
+    "comments": [
+      { "id": 1, "username": "emma_w", "text": "Beautiful view! 😍" },
+      { "id": 2, "username": "sam_k", "text": "Amazing shot!" }
+    ],
+    "timestamp": "2025-01-10T14:48:00"
+  },
+  {
+    "id": 2,
+    "user":{
+      "id":102,
+      "username": "travel_girl",
+      "userImage": "src/assets/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"
+    },
+    "postImage": "src/assets/hans-lAtABuH_N9k-unsplash.jpg",
+    "caption": "Adventure time ✈️🌍",
+    "likes": 987,
+    "isLiked": true,
+    "comments": [
+      { "id": 1, "username": "john_doe", "text": "Safe travels! ✨" }
+    ],
+    "timestamp": "2025-01-11T09:15:00"
+  },
+  {
+    "id": 3,
+    "user":{
+      "id":103,
+      "username": "food_lover",
+      "userImage": "src/assets/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+    },
+    "postImage": "src/assets/jonathan-larson-B-pGOWpwFC0-unsplash.jpg",
+    "caption": "Best burger in town 🍔🔥",
+    "likes": 452,
+    "isLiked": false,
+    "comments": [
+      { "id": 1, "username": "chef_mario", "text": "Looks delicious!" },
+      { "id": 2, "username": "anna", "text": "Where is this place?" }
+    ],
+    "timestamp": "2025-01-12T11:32:00"
+  },
+  {
+    "id": 4,
+    "user":{
+      "id":104,
+      "username": "coder_life",
+      "userImage": "src/assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+    },
+    "postImage": "src/assets/pavel-boltov-O4snDym8Uvo-unsplash.jpg",
+    "caption": "Late night coding session 💻☕",
+    "likes": 129,
+    "isLiked": false,
+    "comments": [
+      { "id": 1, "username": "tech_guy", "text": "Keep grinding! 🔥" }
+    ],
+    "timestamp": "2025-01-15T01:20:00"
+  }
+],
+  "profile":{
+      "id":101,
+      "username": "john_doe",
+      "userImage": "src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+    },
+    
+    "suggestions":[
+      {
+      "id":101,
+      "username": "john_doe",
+      "userImage": "src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+    },
+    {
+      "id":102,
+      "username": "travel_girl",
+      "userImage": "src/assets/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"
+    },
+    {
+      "id":103,
+      "username": "food_lover",
+      "userImage": "src/assets/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+    },
+    {
+      "id":104,
+      "username": "coder_life",
+      "userImage": "src/assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+    }
+
+
+    ]
+}
+
