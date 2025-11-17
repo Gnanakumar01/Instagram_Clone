@@ -28,3 +28,18 @@
 .suggestions .dp{
   margin-top: 0px;
 }
+
+.gradient-border{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+
+}
+.story_dp{
+  width: 45px;
+  border-radius: 50%;
+}

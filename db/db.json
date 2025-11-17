@@ -5,7 +5,7 @@
     "user": {
       "id":101,
       "username": "john_doe",
-      "userImage": "src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+      "userImage": "src/assets/user1.jpg"
     },
     "postImage": "src/assets/carl-beech-dgHAvBuQdfs-unsplash.jpg",
     "caption": "Enjoying the sunset ❤️",
@@ -22,7 +22,7 @@
     "user":{
       "id":102,
       "username": "travel_girl",
-      "userImage": "src/assets/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"
+      "userImage": "src/assets/user2.jpg"
     },
     "postImage": "src/assets/hans-lAtABuH_N9k-unsplash.jpg",
     "caption": "Adventure time ✈️🌍",
@@ -38,7 +38,7 @@
     "user":{
       "id":103,
       "username": "food_lover",
-      "userImage": "src/assets/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+      "userImage": "src/assets/user3.jpg"
     },
     "postImage": "src/assets/jonathan-larson-B-pGOWpwFC0-unsplash.jpg",
     "caption": "Best burger in town 🍔🔥",
@@ -55,7 +55,7 @@
     "user":{
       "id":104,
       "username": "coder_life",
-      "userImage": "src/assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+      "userImage": "src/assets/user4.jpg"
     },
     "postImage": "src/assets/pavel-boltov-O4snDym8Uvo-unsplash.jpg",
     "caption": "Late night coding session 💻☕",
@@ -70,10 +70,10 @@
   "profile":{
       "id":101,
       "username": "john_doe",
-      "userImage": "src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+      "userImage": "src/assets/user1.jpg"
     },
     
-    "suggestions":[
+  "suggestions":[
       {
       "id":101,
       "username": "john_doe",
@@ -96,6 +96,48 @@
     }
 
 
-    ]
+    ],
+
+  "stories":[
+  {
+    "id": 1,
+    "user": {
+      "id":101,
+      "username": "john_doe",
+      "userImage": "src/assets/user1.jpg"
+    },
+    "storyImage": "src/assets/story1.jpg"
+   
+  },
+  {
+    "id": 2,
+    "user":{
+      "id":102,
+      "username": "travel_girl",
+      "userImage": "src/assets/user2.jpg"
+    },
+    "storyImage": "src/assets/story2.jpg"
+  },
+
+  {
+    "id": 3,
+    "user":{
+      "id":103,
+      "username": "food_lover",
+      "userImage": "src/assets/user3.jpg"
+    },
+    "storyImage": "src/assets/story3.jpg"
+  },
+
+  {
+    "id": 4,
+    "user":{
+      "id":104,
+      "username": "coder_life",
+      "userImage": "src/assets/user4.jpg"
+    },
+    "storyImage": "src/assets/story4.jpg"
+  }
+]    
 }
 
