@@ -24,7 +24,7 @@ function Suggestions() {
       <div className='suggestions w-75 m-4'>
         {profile ?
           <div className='d-flex '>
-            <img className='dp' src={profile.userImage} alt="" />
+            <img className='dp rounded-circle' src={profile.userImage} alt="" />
             <h5>{profile.username}</h5>
             <small className='ms-auto text-info'>Switch</small>
           </div>
@@ -40,7 +40,7 @@ function Suggestions() {
                 {suggestions.map((suggestion)=>(
                     <div key={suggestion.id}>
                         <div className='d-flex justify-content-evenly'>
-                            <img className='dp' src={suggestion.userImage} alt="" />
+                            <img className='dp rounded-circle' src={suggestion.userImage} alt=""/>
                             <h5>{suggestion.username}</h5>
                             <p className='text-info ms-auto'>Follow</p>
                         </div>

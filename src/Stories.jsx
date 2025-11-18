@@ -15,8 +15,12 @@ function Stories() {
     <div className='stories d-flex'>
       {stories.length > 0 ?(
         stories.map((stories)=>(
-          <div key={stories.id}>
-            <img src={stories.user.userImage} alt="dp" className='story_dp'/>
+          <div key={stories.id} className='mx-2'>
+            <div className="gradient-border">
+              <img src={stories.user.userImage} alt="dp" className='story_dp rounded-circle'/>
+            </div>
+            
+            <p className='text-truncate' style={{width:"50px"}}>{stories.user.username}</p>
           </div>
 
         ))
