@@ -5,17 +5,17 @@ function ViewStory() {
 
   const {id} = useParams();
 
-  cosnt [story, setStory] = useState(null);
+  const [stories, setStories] = useState(null);
 
   useEffect(()=>{
-    fetch(`http://localhost:5173/stories/${id}`)
+    fetch(`http://localhost:3000/stories/${id}`)
     .then(data => data.json())
-    .then(data => setStory(data))
+    .then(data => setStories(data))
     .catch(err => console.log(err))
   },[]);
   return (
     <div>
-      {stories? <div>stories.user.username</div> : <div>Loading</div>}
+      {stories? <div>{stories.user.username}</div> : <div>Loading</div>}
     </div>
   )
 }
