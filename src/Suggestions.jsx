@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import values from './assets/js/data';
 
 function Suggestions() {
 
@@ -7,15 +8,8 @@ function Suggestions() {
 
   useEffect(() => {
 
-    fetch('http://localhost:3000/profile')
-      .then(data => data.json())
-      .then(data => setProfile(data))
-      .catch(err => console.log(err))
-
-    fetch('http://localhost:3000/suggestions')
-      .then(data => data.json())
-      .then(data => setSuggestions(data))
-      .catch(err => console.log(err))
+    setProfile(values.profile);
+    setSuggestions(values.suggestions)
 
   }, []);
 

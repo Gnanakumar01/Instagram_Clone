@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import values from './assets/js/data';
 
 function Stories() {
 
   const [stories, setStories] = useState([]);
 
   useEffect(()=>{
-    fetch('http://localhost:3000/stories')
-    .then(data => data.json())
-    .then(data => setStories(data))
-    .catch(err => console.log(err))
+    setStories(values.stories)
   },[]);
 
   return (
