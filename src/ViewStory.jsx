@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { data,useParams } from 'react-router-dom'
-import { abc } from './assets/js/data';
+import values from './assets/js/data';
 
 
 
@@ -11,7 +11,7 @@ function ViewStory() {
   const [story, setStory] = useState(null);
 
   useEffect(()=>{
-    setStory(abc.story)
+    setStory(values.story)
   },[]);
   return (
     <div>
